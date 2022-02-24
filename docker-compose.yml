@@ -1,0 +1,14 @@
+version: '2'
+services:
+  app:
+    build:
+      context: ./hardhat
+      dockerfile: Dockerfile.dev
+    restart: always
+    command: yarn run dev
+    volumes: 
+      - ./hardhat:/app
+      - /app/node_modules
+      - ./<PATH_TO_FRONTEND_DIR>/contracts:/app/tmp/contracts
+    ports:
+      - 8545:8545
