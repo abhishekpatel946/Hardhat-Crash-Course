@@ -2,6 +2,8 @@
 
 pragma solidity ^0.8.9;
 
+import "hardhat/console.sol";
+
 contract TestToken {
     string public name = "TestToken";
     string public symbol = "TST";
