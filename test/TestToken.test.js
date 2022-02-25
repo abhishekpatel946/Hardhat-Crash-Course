@@ -1,7 +1,6 @@
 const { expect } = require("chai");
 
 describe("TestToken", function () {
-  console.log("test");
   let owner, TestToken, testToken, user1, user2;
   before(async function () {
     [owner, user1, user2] = await ethers.getSigners();

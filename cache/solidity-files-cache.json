@@ -72,6 +72,41 @@
       "artifacts": [
         "console"
       ]
+    },
+    "C:\\Users\\Abhisekh\\OneDrive\\Desktop\\Hardhat Crash Course\\contracts\\CrowdFunding.sol": {
+      "lastModificationDate": 1645713741892,
+      "contentHash": "8d7b92b919654eea02d919e1e2cc1431",
+      "sourceName": "contracts/CrowdFunding.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "CrowdFunding"
+      ]
     }
   }
 }
