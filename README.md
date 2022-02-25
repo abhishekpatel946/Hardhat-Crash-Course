@@ -16,7 +16,7 @@ Deployed Token Address:
 ```
 - CrowdFunding
 ```bash
-
+0x5FbDB2315678afecb367f032d93F642f64180aa3
 ```
 
 Etherscan Contract Creation Hash:
@@ -26,8 +26,32 @@ https://ropsten.etherscan.io/tx/0x22efa4f6f758432fc1a4dd759f495fed4fbc73792e7f4f
 ```
 - CrowdFunding
 ```bash
-
+https://ropsten.etherscan.io/tx/0xbaface72ab0d9b896f25b6471977210e46ff7ac0e136e7a4d8e3d88208eaf010
 ```
+## Getting started with Hardhat
+Install all the dependencies
+```bash
+npm i
+```
+
+Run the test for all contracts
+```bash
+npx hardhat test
+```
+
+Deploy the contract in locally using hardhat network
+```bash
+npx hardhat run scripts/deploy.js
+```
+
+Note: Change the `scripts/deploy.js` and run the below command to deploy the specific contract.
+
+Deploy the contract in testnet like: ropsten
+```bash
+npx hardhat run scripts/deploy.js --network ropsten
+```
+
+
 
 Add the following service to your `docker-compose.yml`:
 ```yaml
@@ -44,6 +68,8 @@ hardhat:
   ports:
     - 8545:8545
 ```
+
+
 
 Once the service has been started with `docker-compose up` you contracts will be deployed to the localhost:8545 RPC. When you save the contract files they will be redeployed.
 
