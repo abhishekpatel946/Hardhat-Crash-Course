@@ -107,6 +107,41 @@
       "artifacts": [
         "CrowdFunding"
       ]
+    },
+    "C:\\Users\\Abhisekh\\OneDrive\\Desktop\\Hardhat Crash Course\\contracts\\SimpleAuction.sol": {
+      "lastModificationDate": 1646031392532,
+      "contentHash": "070dd07dd24e6970487294b1cf3bb8ac",
+      "sourceName": "contracts/SimpleAuction.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "SimpleAuction"
+      ]
     }
   }
 }
